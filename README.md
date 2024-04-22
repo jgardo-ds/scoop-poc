@@ -7,7 +7,7 @@
 2. Add this bucket to scoop:
 
 ```
-scoop bucket add streamx-dev https://github.com/jgardo-ds/scoop-poc.git
+scoop bucket add jgardo-ds https://github.com/jgardo-ds/scoop-poc.git
 ```
 
 3. Install tools via `scoop install`:
