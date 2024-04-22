@@ -24,7 +24,7 @@ jobs:
         with:
           java-version: '17'
           distribution: 'adopt'
-          cache: 'maven'
+#          cache: 'maven'
 
       - name: Install scoop
         uses: MinoruSekine/setup-scoop@v4
