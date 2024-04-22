@@ -31,5 +31,5 @@ jobs:
       - name: Install jgardo-example-app
         run: |
           scoop bucket add streamx-dev https://github.com/jgardo-ds/scoop-poc.git
-          scoop install jgardo-example-app
-          jgardo-example-app world
+          scoop install jgardo
+          jgardo world
