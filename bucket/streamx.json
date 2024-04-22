@@ -1,0 +1,27 @@
+{
+  "version": "0.2.3",
+  "description": "CLI for StreamX",
+  "homepage": "https://www.streamx.dev",
+  "license": "EULA",
+  "url": "https://github.com/streamx-dev/streamx-cli/releases/download/0.2.3/streamx-0.2.3.zip",
+  "hash": "sha256:f8b2c94e842b1d2926062c41cedb839d07e36f4ecc63ecae3b3f12c7baac2d4b",
+  "extract_dir": "streamx-0.2.3",
+  "env_add_path": "bin",
+  "suggest": {
+    "JDK": [
+      "java/oraclejdk",
+      "java/openjdk"
+    ]
+  },
+  "checkver": {
+    "url": "https://github.com/streamx-dev/streamx-cli/releases/latest",
+    "re": "v([\\d.]+).zip"
+  },
+  "autoupdate": {
+    "url": "https://github.com/streamx-dev/streamx-cli/releases/download/$version/streamx-$version.zip",
+    "extract_dir": "streamx-$version",
+    "hash": {
+      "url": "$url.sha256"
+    }
+  }
+}
