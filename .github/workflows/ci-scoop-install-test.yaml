@@ -28,7 +28,10 @@ jobs:
 
       - name: Install scoop
         uses: MinoruSekine/setup-scoop@v4
-      - name: Install streamx
+      - name: Install jgardo-example-app
         run: |
           scoop bucket add streamx-dev https://github.com/jgardo-ds/scoop-poc.git
           scoop install jgardo-example-app
+      - name: Run jgardo-example-app
+        run: |
+          jgardo-example-app
