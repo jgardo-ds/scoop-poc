@@ -1,11 +1,11 @@
 {
-  "version": "1.0.0-alpha2",
+  "version": "1.0.0-alpha3",
   "description": "Example CLI",
   "homepage": "https://jgardo.dev",
   "license": "Apache-2.0",
-  "url": "https://github.com/jgardo-ds/chocolatey-cli-example/releases/download/1.0.0-alpha2/jgardo-example-app-1.0.0-alpha2.zip",
-  "hash": "sha256:2ed65a6650674162d6591bc670675f7cef154d6c9c9af17868886673b546018c",
-  "extract_dir": "jgardo-example-app-1.0.0-alpha2",
+  "url": "https://github.com/jgardo-ds/chocolatey-cli-example/releases/download/1.0.0-alpha3/jgardo-example-app-1.0.0-alpha3.zip",
+  "hash": "sha256:0fa1c37dae14e27ae9d0f9e1a02d15fe8772aa0460ed60b922533c5d0980cc4b",
+  "extract_dir": "jgardo-example-app-1.0.0-alpha3",
   "env_add_path": "bin",
   "suggest": {
     "JDK": [
