@@ -28,8 +28,7 @@ jobs:
 
       - name: Install scoop
         uses: MinoruSekine/setup-scoop@v4
-        with:
-          buckets: "streamx-dev https://github.com/jgardo-ds/scoop-poc.git"
       - name: Install streamx
         run: |
+          scoop bucket add streamx-dev https://github.com/jgardo-ds/scoop-poc.git
           scoop install streamx
