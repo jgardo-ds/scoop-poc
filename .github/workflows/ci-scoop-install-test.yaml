@@ -30,6 +30,10 @@ jobs:
         uses: MinoruSekine/setup-scoop@v4
       - name: Install jgardo-example-app
         run: |
+          scoop install quarkus-cli
+
+          quarkus create app
+        
           scoop bucket add streamx-dev https://github.com/jgardo-ds/scoop-poc.git
           scoop install jgardo
           jgardo world
