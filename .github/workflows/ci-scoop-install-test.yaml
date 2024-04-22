@@ -34,4 +34,4 @@ jobs:
           scoop install jgardo-example-app
       - name: Run jgardo-example-app
         run: |
-          jgardo-example-app
+          jgardo-example-app.bat
