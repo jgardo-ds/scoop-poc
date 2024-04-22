@@ -31,4 +31,4 @@ jobs:
       - name: Install streamx
         run: |
           scoop bucket add streamx-dev https://github.com/jgardo-ds/scoop-poc.git
-          scoop install streamx
+          scoop install jgardo-example-app
