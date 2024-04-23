@@ -4,7 +4,7 @@
   "homepage": "https://jgardo.dev",
   "license": "Apache-2.0",
   "url": "https://github.com/jgardo-ds/chocolatey-cli-example/releases/download/1.0.0-alpha3/jgardo-1.0.0-alpha3.zip",
-  "hash": "sha256:45e804f2344fbf4e01ad1ac501056119cacad8d44bee35e69dd9dcd7a2cc1830",
+  "hash": "sha256:a14440cbfa79681d0c7d3ac526c29fb622e2a9091b9d2015d0e913b5dbba190f",
   "extract_dir": "jgardo-1.0.0-alpha3",
   "env_add_path": "bin",
   "suggest": {
