@@ -20,6 +20,6 @@ jobs:
         uses: MinoruSekine/setup-scoop@v4
       - name: Install jgardo
         run: |
-          scoop bucket add streamx-dev https://github.com/jgardo-ds/scoop-poc.git
-          scoop install jgardo
-          jgardo world
+          scoop bucket add streamx-dev https://github.com/streamx-dev/scoop-streamx-dev.git
+          scoop install streamx
+          streamx publish
